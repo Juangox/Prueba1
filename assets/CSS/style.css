@@ -8,3 +8,12 @@ body {
     font-size: 28px;
     font-weight: normal;
 }
+
+#logo-inicio {
+    font-size: 24px;
+}
+
+#logo-img {
+    width: 30px;
+    margin: 10px;
+}

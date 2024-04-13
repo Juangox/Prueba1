@@ -31,13 +31,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">¿Quienes somos?</a>
+                            <a class="nav-link" href="#section1">¿Quienes somos?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destacados</a>
+                            <a class="nav-link" href="#section2">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#section3">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -71,15 +71,16 @@
 
     <main>
 
-        <section class="py-4">
+        <section id="section1" class="py-4">
+            <h1 id="texti" class="text-center">¿QUIENES SOMOS?</h1>
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-4">
                     <!-- col 1-->
                     <div class="col-12 col-lg-4 px-4">
-                        <div class="card h-100"> <img src="assets/img/card1.jpg" class="card-img-top" alt="..." />
-                            <div class="card-body bg-info">
-                                <h5 class="card-title">Titulo de la card</h5>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                        <div class="card h-100 bg-transparent">
+                            <div class="card-body">
+                                <h5 class="card-title bg-info text-center">Titulo de la card</h5>
+                                <p class="card-text text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
                                     make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
                                     containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                             </div>
@@ -87,20 +88,20 @@
                     </div>
 
                     <div class="col-12 col-lg-4 px-4">
-                        <div class="card h-100"> <img src="assets/img/card1.jpg" class="card-img-top" alt="..." />
-                            <div class="card-body bg-info">
-                                <h5 class="card-title">Titulo de la card</h5>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                        <div class="card h-100 bg-transparent">
+                            <div class="card-body">
+                                <p class="card-text text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
                                     make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
                                     containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                <h5 class="card-title bg-info text-center">Titulo de la card</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-4 px-4">
-                        <div class="card h-100"> <img src="assets/img/card1.jpg" class="card-img-top" alt="..." />
-                            <div class="card-body bg-info">
-                                <h5 class="card-title">Titulo de la card</h5>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                        <div class="card h-100 bg-transparent">
+                            <div class="card-body">
+                                <h5 class="card-title bg-info text-center">Titulo de la card</h5>
+                                <p class="card-text text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
                                     make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
                                     containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                             </div>
@@ -115,7 +116,7 @@
 
 
 
-        <section class="py-4">
+        <section id="section2" class="py-4">
             <h1 id="texti" class="text-center">DESTACADOS</h1>
             <div class="row">
                 <hr>
@@ -139,7 +140,7 @@
                         <img id="fotito1" src="assets/img/card2.jpg" alt="">
                         <div class="card-body">
                             <h4 id="textito1">LASCAR</h4>
-                            <p id="parrafito1">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                            <p id="parrafito1">Congue fermentum dignissim rhoncus elementum ed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
                         </div>
                     </div>
                 </div>
@@ -167,11 +168,10 @@
                 </div>
             </div>
         </section>
-
-        <section>
+        <hr>
+        <section id="section3">
+            <h1 id="texti" class="text-center">CONTACTO</h1>
             <section class="py-5" id="contacto">
-                <h4 class="text-center mx-5 mb-4">Contacto</h4>
-                <hr class="bg-info mb-4 text-center" />
                 <form class="container">
                     <div class="mb-3"> <label class="form-label">Nombre</label> <input type="email" class="form-control" aria-describedby="emailHelp"> </div>
                     <div class="mb-3"> <label class="form-label">Asunto</label> <input type="email" class="form-control" aria-describedby="emailHelp"> </div>
